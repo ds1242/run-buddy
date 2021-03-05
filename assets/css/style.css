@@ -180,7 +180,7 @@ section {
     margin:10px 0;
 }
 .steps h3{
-    color:#39a6b2;
+    color:#024e76;
     font-size: 46px;
     margin-top: 10px;
 }
@@ -191,19 +191,19 @@ section {
 .steps span{
     font-size: 38px;
 }
-
-
-.section-title{
+.section-title {
     font-size: 55px;
-    color:#024e76;
+    color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
 }
-.primary-border{
+  
+  .primary-border {
     border-color: #fce138;
 }
-.secondary-border{
+  
+  .secondary-border {
     border-color: #39a6b2;
 }
