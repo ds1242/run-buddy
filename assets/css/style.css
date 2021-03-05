@@ -2,6 +2,7 @@
     /* fixes browswer margin and padding, sets every element to not have maring or padding unless specified*/
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -33,21 +34,121 @@ header h1 {
 }
 
 header a {
+        /* applies styling to anchors in the header */
     text-decoration: none;
     color:#fce138;
 }
 
 header nav{
+    /* applies navigation styling */
     float: right;
     margin: 7px 0;
 }
 
 header nav ul li {
+    /* puts nav list elements into one line */
     display: inline;
 }
 
 header nav ul li a {
+    /* applies sytling to nav list anchor elements */
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
 }
+
+
+footer {
+        background: #fce138;
+        width: 100%;
+        padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a{
+    color: #024e76;
+}
+
+
+section {
+    padding: 60px;
+    
+}
+
+/* Hero Style Start */
+.hero{
+    background-image: url("../images/hero-bg.jpg");
+    height:600px;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+
+/* .Hero-form style start */
+.hero-form{
+    color:#024e76;
+    background-color: #fce138;
+    padding:20px;
+    width:500px; 
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;   
+    position:absolute;
+    bottom: 120px;
+    right:140px;
+}
+/* .hero-form style end */
+
+/* .hero-form h3 styling start */
+.hero-form h3{
+    margin:0;
+    font-size: 24px;
+}
+/* .hero-form h3 styling end */
+
+/* .hero-form p styling start*/
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+/* .hero-form p style end */
+
+/* .hero-from label style start */
+.hero-form label {
+    margin: 0 5px;
+}
+/* .hero-from  label style end */
+
+/* .form-input style start */
+.form-input{
+    border:1px solid #024e76;
+    display:block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+/* .form-input style end */
+
+
+/* button style start */
+.hero-form button{
+    background-color:#024e76;
+    color:#fce138;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* Hero Style End */
