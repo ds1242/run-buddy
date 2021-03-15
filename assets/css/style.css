@@ -173,6 +173,10 @@ section {
 .steps {
     text-align: center;
     background: #fce138;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 .steps div{
     margin-bottom: 80px;
